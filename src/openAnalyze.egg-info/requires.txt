@@ -1,0 +1,8 @@
+pandas>=1.5
+scipy>=1.10
+scikit-learn>=1.4
+rich>=13.7
+kaleido>=0.2
+ttkbootstrap>=1.10
+pillow>=10.2
+plotly>=6.0

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openAnalyze"
+version = "0.2.0"                        # bumped for GUI release
+description = "OpenAnalyze – CLI + GUI for DeepMedia detector analytics"
+readme = "README.md"
+authors = [{name = "Your Name", email = "you@example.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.9"
+
+# ── All Python-side runtime deps ──
+dependencies = [
+    # core analytics
+    "pandas>=1.5",
+    "scipy>=1.10",
+    "scikit-learn>=1.4",
+    "rich>=13.7",
+    "kaleido>=0.2",
+    "ttkbootstrap>=1.10",
+    "pillow>=10.2",
+    "plotly>=6.0",
+]
+
+[project.scripts]          # console entry-points
+openAnalyze      = "openAnalyze.openAnalyze:main"
+openAnalyze-gui  = "openAnalyze.openAnalyze_gui:launch"
+
+[project.urls]
+Homepage        = "https://github.com/yourname/openAnalyze"
+Issue-Tracker   = "https://github.com/yourname/openAnalyze/issues"

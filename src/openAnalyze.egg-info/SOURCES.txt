@@ -1,0 +1,13 @@
+pyproject.toml
+setup.py
+src/openAnalyze/__init__.py
+src/openAnalyze/convert_to_analyzer_csv.py
+src/openAnalyze/openAnalyze.py
+src/openAnalyze/openAnalyze_gui.py
+src/openAnalyze/openAnalyze_gui_backup.py
+src/openAnalyze.egg-info/PKG-INFO
+src/openAnalyze.egg-info/SOURCES.txt
+src/openAnalyze.egg-info/dependency_links.txt
+src/openAnalyze.egg-info/entry_points.txt
+src/openAnalyze.egg-info/requires.txt
+src/openAnalyze.egg-info/top_level.txt

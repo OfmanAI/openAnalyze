@@ -1,0 +1,10 @@
+pyproject.toml
+src/deepmedia_detector_cli.egg-info/PKG-INFO
+src/deepmedia_detector_cli.egg-info/SOURCES.txt
+src/deepmedia_detector_cli.egg-info/dependency_links.txt
+src/deepmedia_detector_cli.egg-info/entry_points.txt
+src/deepmedia_detector_cli.egg-info/requires.txt
+src/deepmedia_detector_cli.egg-info/top_level.txt
+src/openAnalyze/__init__.py
+src/openAnalyze/convert_to_analyzer_csv.py
+src/openAnalyze/openAnalyze.py

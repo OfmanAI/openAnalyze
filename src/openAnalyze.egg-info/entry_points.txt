@@ -1,0 +1,3 @@
+[console_scripts]
+openAnalyze = openAnalyze.openAnalyze:main
+openAnalyze-gui = openAnalyze.openAnalyze_gui:launch

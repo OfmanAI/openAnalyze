@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: openAnalyze
+Version: 0.2.0
+Summary: OpenAnalyze – CLI + GUI for DeepMedia detector analytics
+Author-email: Your Name <you@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourname/openAnalyze
+Project-URL: Issue-Tracker, https://github.com/yourname/openAnalyze/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=1.5
+Requires-Dist: scipy>=1.10
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: rich>=13.7
+Requires-Dist: kaleido>=0.2
+Requires-Dist: ttkbootstrap>=1.10
+Requires-Dist: pillow>=10.2
+Requires-Dist: plotly>=6.0
+Dynamic: requires-python
